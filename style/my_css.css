@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+body {
+background-color: black;
+color: white;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lucida Console', 'Courier New', monospace;
+}
+
+p {
+  font-family: 'Lucida Console', 'Courier New', monospace;
+}
+
+.well {
+background-color: #5f9ea0;      
+}        
+
+.shiny-input-container {
+color: #474747;
+}
