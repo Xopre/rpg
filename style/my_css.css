@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+:root {
+  --cadetblue: #474747;
+  --white: #ffffff;
+}
+
 body {
 background-color: black;
 color: white;
@@ -17,5 +23,9 @@ background-color: #5f9ea0;
 }        
 
 .shiny-input-container {
-color: #474747;
+color: var(cadetblue);
+}
+
+.navbar {
+background-color: var(cadetblue);
 }
