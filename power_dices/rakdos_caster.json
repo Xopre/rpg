@@ -1,0 +1,40 @@
+{
+	"Name": "Rakdos_fireslinger",
+	"Class": "Caster", // May use also Fighter, Rogue and so on, just changing the Spell_names to abilities of their own.
+	"Group": "Rakdos",
+	"Levels": [ // If used as an enemy
+		1,
+		2
+	],
+	"Power_dices": [ // Their "mana pool"
+		"10d10",
+		"10d6"
+	],
+	"Max_dices": [ // The maximum number of power dices they can drag with any spell unless said otherwise
+		"2d10",
+		"2d6"
+	],
+	"Available_status": {
+		"Burning": "-5, d2", // d stands for "duration"
+		"Stunning": "/2, d1",
+		"Slowing": "-1, dd",
+		"Quickened": "0, dd",
+		"Empowered": "1d, a" // It increases damage by 1 dice, but that dice also damages the caster
+	},
+	"Skill_nature": "Magical",
+	"Skill_list": {
+		// Ordered by power, so that it can be used as a reference for other spellcasters
+		"Skill_1": "lower fire bolt",
+		"Skill_2": "demon speed",
+		"Skill_3": "disonant song",
+		"Skill_4": "rejoice in pain",
+		"Skill_5": "fire dance",
+		"Skill_6": "fire bolt",
+		"Skill_7": "unholy fire"
+	},
+	"Stats": {
+		"HP": 40,
+		"AC": 13,
+		"Skill_modifier": "5" // Maybe give directly the probability of success?
+	}
+}
